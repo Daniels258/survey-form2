@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Reunión de ideas de usuario</h1>
+    <p>Queremos conocer tus ideas sobre el programa </p>
+    <form id="survey-form">
+        <label for="name">
+    <input type="text" id="name-label" placeholder="Ingresa tu nombre" > 
+    </label>
+        <label for="email">Email
+            <input type="email" id="email-label" placeholder="Ingresa tu correo" > 
+        </label>
+        <label for="number">Estrato
+            <input type="number" id="number-label" placeholder="Ingresa tu Estrato" min="1" max="6">
+        </label>
+        <label for="dropdown"> Elige tu género
+        <select name="" id="dropdown">
+            <option value=""selected disabled>seleccionar opción</option>
+            
+            <option value="Maculino"></option>
+            <option value="Femenino"></option>
+          
+        </select>
+<label for=""> Escoja una estacion de radio
+    <input type="radio" name="type-radio"> Olimpica
+    <input type="radio" name="type-radio"> Los40principales
+    <input type="radio" name="type-radio"> RadioActiva
+    <input type="radio" name="type-radio"> BlueRadio
+    <input type="radio" name="type-radio"> RadioTiempo
+</label>
+
+    </label for="checkbox"> Temas de interes:
+    <input type="checkbox" value="checkbox-one" id="checkbox"> Cine
+    <input type="checkbox" value="checkbox-two" id="checkbox"> Sexo
+    <input type="checkbox" value="checkbox-tree" id="checkbox"> Humor
+    <input type="checkbox" value="checkbox-four" id="checkbox"> Tecnología
+    <input type="checkbox" value="checkbox-five" id="checkbox"> Vehiculos
+    <input type="checkbox" value="checkbox-six" id="checkbox"> Literatura
+
+    <label for="textarea">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Tu pinión sobre la encuesta">
+
+    </textarea>
+    </label>
+    <button id="submit">Enviar</button>
+</form>
+</body>
+</html>
